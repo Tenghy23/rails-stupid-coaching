@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Stupid Coaching</h1>
+
+    <div class="card">
+      <%= params[:question] %>
+      <h4>-You</h4>
+    </div>
+
+    <div class="card">
+      <%= @ans %>
+      <h4>-Coach</h4> 
+    </div>
+
+    <div class="link">
+      <a href="/ask">Ask a new question!</a>
+    </div>
+
+  </body>
+</html>
